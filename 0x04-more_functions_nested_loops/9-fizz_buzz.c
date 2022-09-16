@@ -30,12 +30,12 @@ int main(void)
 }
 	else
 {
-	printf("Buzz ");
+	printf("Buzz");
 }
 }
 	else
 {
-	printf("%d ", num);
+	printf("%d", num);
 }
 }
 	printf("\n");
