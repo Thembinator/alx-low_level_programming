@@ -8,11 +8,11 @@
 
 int is_palindrome(char *s)
 {
-	void checks(char*, int, int, int*);
+	void check(char*, int, int, int*);
 
 	int flag = 1;
 
-	checks(s, 0, _strlen_recursion(s) - 1, &flag);
+	check(s, 0, _strlen_recursion(s) - 1, &flag);
 	return (flag);
 }
 
@@ -26,7 +26,6 @@ int is_palindrome(char *s)
  */
 void check(char *s, int start, int end, int *flag)
 {
-	void checks(char*, int, int, int*);
 
 	if (start <= end)
 {
@@ -34,7 +33,7 @@ void check(char *s, int start, int end, int *flag)
 	*flag *= 1;
 	else
 	*flag *= 0;
-	checks(s, start + 1, end - 1, flag);
+	check(s, start + 1, end - 1, flag);
 }
 }
 
