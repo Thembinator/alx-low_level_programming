@@ -8,5 +8,7 @@
 
 int _putchar(char);
 int check_num(char *str);
+long unsigned int strlen(const char *);
+int atoi(char *);
 
 #endif /* MAIN_H */
