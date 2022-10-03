@@ -11,8 +11,6 @@
 
 int check_num(char *str)
 {
-	long unsigned int strlen(const char *);
-	int isdigit(int str);
 
 	unsigned int count;
 
